@@ -34,6 +34,19 @@ bool cmp(pii x, pii y) {
     else return false;
     
 }
+// another way to solve this problem 
+// bool cmp(pii x, pii y) {
+//     // code here 
+   
+//     if  (x.second==y.second){
+//          if (x.first<y.first) return true;
+//          else return false;
+//     }
+//     if (x.second >y.second) return true;
+//     else return false;
+    
+// }
+//cout<<nl;
 // this function is used to cmp second element of the pair
 // bool cmp (pii x, pii y){
 //     if (x.second<y.second) return true;
