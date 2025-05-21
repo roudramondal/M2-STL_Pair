@@ -27,11 +27,11 @@ bool cmp(pii x, pii y) {
     // code here 
    
     if  (x.first==y.first){
-         if (x.second<y.second) return true;
-         else return false;
+         if (x.second>y.second) return true;
+         return false;
     }
-    if (x.first >y.first) return true;
-    else return false;
+    if (x.first < y.first) return true;
+    return false;
     
 }
 // another way to solve this problem 
