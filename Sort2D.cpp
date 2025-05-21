@@ -34,6 +34,11 @@ bool cmp(pii x, pii y) {
     else return false;
     
 }
+// this function is used to cmp second element of the pair
+// bool cmp (pii x, pii y){
+//     if (x.second<y.second) return true;
+//     else return false;
+// }
 
 int main() {
     fast_io;
