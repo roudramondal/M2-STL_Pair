@@ -26,14 +26,28 @@ using namespace std;
 
 int main() {
     fast_io;
-    set<pair<string,string>>v;
+    // set<pair<string,string>>v;
+    // int n;
+    // cin>>n;
+    // for (int i=0;i<n;i++){
+    //     string a,b;
+    //     cin>>a>>b;
+    //     v.insert({a,b});
+    // }
+    // cout<<v.size()<<nl;
+    cout<<nl;
     int n;
     cin>>n;
-    for (int i=0;i<n;i++){
+    map<pair<string,string>,int>m;
+    for(int i=0;i<n;i++){
         string a,b;
         cin>>a>>b;
-        v.insert({a,b});
+        m[{a,b}]=1;
     }
-    cout<<v.size()<<nl;
+    cout<<m.size()<<nl;
+    for (auto x:m){
+        cout<<x.first.first<<" "<<x.first.second<<"->"<<x.second<<nl;
+    }
+
     return 0;
 }
