@@ -23,7 +23,7 @@ using namespace std;
 
 #define fast_io ios::sync_with_stdio(false); cin.tie(NULL);
 
-bool cmp(pii x, pii y) {
+bool cmp(pii x, pii y) { // use bool compare function and condition check
     // code here 
    
     if  (x.first==y.first){
