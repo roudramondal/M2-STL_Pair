@@ -33,7 +33,8 @@ void solve() {
         cin>>x>>y;
         v.pb({x,y});
     }
-    sort(v.begin(),v.end());
+    sort(v.begin(),v.end());// using sorting
+   
     for (auto x:v){
         cout<<"("<<x.first<<" "<<x.second<<")\n";
     }
