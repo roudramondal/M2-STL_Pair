@@ -23,7 +23,7 @@ using namespace std;
 
 void solve() {
     // code here 
-    pair<string,int>p;
+    pair<string,int>p; // use pair and it take input string and integer value
     cin>>p.first>>p.second;
     cout<<p.first<<' '<<p.second<<nl;
 }
