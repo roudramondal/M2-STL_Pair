@@ -23,7 +23,7 @@ using namespace std;
 
 void solve() {
     // code here 
-    pair<int,pair<int,string>>p;
+    pair<int,pair<int,string>>p; // input 3 value
     // assigning values 
     // p.first=1;
     //p.second={10,4};
