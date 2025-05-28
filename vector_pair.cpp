@@ -25,9 +25,9 @@ using namespace std;
 
 void solve() {
     // code here 
-     vector<pii>v;
+     vector<pii>v;// pair 
     int n;
-    cin>>n;
+    cin>>n;// input value
     for (int i=0;i<n;i++){
         int x,y;
         cin>>x>>y;
