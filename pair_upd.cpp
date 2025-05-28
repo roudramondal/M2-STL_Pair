@@ -25,7 +25,8 @@ void solve() {
     // code here 
     pair<int,int>p={1,2};
     p.first=5;
-    p.second=10;
+    p.second=10;// value update
+   
     cout<<p.first<<' '<<p.second<<nl;
 }
 
