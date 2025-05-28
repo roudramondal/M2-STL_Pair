@@ -30,7 +30,7 @@ void solve() {
     for (int i=0;i<5;i++){
         int x;
         cin>>x;
-        p.second.pb(x);
+        p.second.pb(x);// push value
     }
     for (auto x:p.second){
         cout<<x<<' ';
